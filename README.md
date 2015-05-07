@@ -15,7 +15,8 @@ fis.config.set('project.fileType.text', 'handlebars');
 fis.config.set('roadmap.ext.handlebars', 'js');
 ```
 
-foo.handlebars的模板文件，其中的内容是：
+### 3. 使用
+创建foo.handlebars的模板文件，其中的内容是：
 ```hanblebars
 <div class="entry">
   <h1>{{title}}</h1>
@@ -25,7 +26,7 @@ foo.handlebars的模板文件，其中的内容是：
 </div>
 ```
 
-然后你再写一个叫foo.js的js文件，内容是：
+创建foo.js的js文件，内容是：
 
 ```js
 var tpl = __inline('foo.handlebars');
@@ -34,4 +35,4 @@ var html = console.log(tpl(context));
 console.log(html);
 ```
 
-记得在页面上使用handlebars的 [runtime版本](http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars.runtime-v3.0.3.js) 作为运行时框架。
+在页面上引入handlebars的 [runtime版本](http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars.runtime-v3.0.3.js) 作为运行时模板引擎框架。

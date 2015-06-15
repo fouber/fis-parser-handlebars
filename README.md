@@ -1,6 +1,8 @@
-# fis-parser-handlebars
+# fis-parser-handlebars (1.x)
 
 A parser plugin for fis to precompile handlebars template.
+
+> 注：本插件适用于1.x版本的handlebars，如果需要3.x版本，请访问这里： https://github.com/scrat-team/fis-parser-handlebars-3.x
 
 ### 1. 安装插件：
 
